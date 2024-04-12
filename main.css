@@ -1,3 +1,60 @@
 body {
-  background-color: rebeccapurple;
+  background-color: #696969;
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  width: 1920px;
+}
+
+.card {
+  border: 1px solid lightblue;
+  width: 620px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-image {
+  width: 550px;
+}
+
+.card-description {
+  width: 550px;
+  margin-bottom: 0px;
+}
+
+.card-description p {
+  text-align: center;
+}
+
+.available-or-not p {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* .specifications-header {
+  margin-top: 0px;
+} */
+
+.specifications {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+/* .pricing-header {
+  margin-top: 0px;
+} */
+
+.pricing {
+  margin-bottom: 10px;
 }
