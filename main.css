@@ -1,5 +1,5 @@
 body {
-  background-color: #696969;
+  background-color: #BDBDBD;
   display: flex;
   justify-content: center;
   font-family: "Catamaran", sans-serif;
@@ -14,14 +14,14 @@ body {
 }
 
 .card {
-  border: 1px solid lightblue;
+  border: 2px solid #03A9F4;
   width: 620px;
-  height: 800px;
+  height: 900px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
-  background-color: #9595957f;
+  background-color: #607D8B;
 }
 
 section {
@@ -34,13 +34,41 @@ h1 {
   font-family: "Lexend Peta", sans-serif;
 }
 
+.image-div {
+  width: 550px;
+  height: 320px;
+}
+
 .card-image {
   width: 550px;
+  height: 320px;
+}
+
+/* .r2-image-div {
+  justify-content: center;
+} */
+
+#r2-image {
+  position: absolute;
+}
+
+.sold-out-image {
+  width: 449px;
+  height: 300px;
+  margin-top: 10px;
+  margin-left: 50.5px;
+  position: relative;
+  /* z-index: 1; */
 }
 
 .card-description {
   width: 550px;
   margin-bottom: 0px;
+  color: #212121;
+}
+
+.card-description p {
+  width: 550px
 }
 
 .card-description p {
@@ -50,7 +78,7 @@ h1 {
 .available-or-not p {
   width: 620px;
   text-align: center;
-  background-color: #696969;
+  background-color: #455A64;
   margin-top: 0px;
   font-size: 20px;
   font-weight: bold;
@@ -77,4 +105,5 @@ block {
 footer {
   margin-top: 10px;
   font-size: 12px;
+  color: #212121;
 }
